@@ -1,0 +1,66 @@
+.index-main-buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: calc( 1.75rem + 1.5vw);
+}
+
+.index-main-buttons a{
+    background-color: #f7f7ff;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 1rem;
+    min-width: calc( 270px - 1.5vw);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none; 
+    transition: all linear 0.4s; 
+}
+
+.index-main-buttons a:hover {
+    background-image: linear-gradient(#f8a4d8, #6d64ff);
+    color: #fff;
+}
+
+.first-part-content {
+    background-image: linear-gradient(#6d64ff, #f8a4d8);
+    border: 1px solid black;
+}
+
+.index-grid-cards {
+    display: grid;
+    gap: 16px;
+    grid-template:  repeat(2 , 1fr) / repeat(2 , 1fr);
+    padding: 1rem;
+}
+
+.index-grid-item {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.picture img {
+    align-items: center;
+    height: auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+p {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: calc( 1rem + 1.5vw);
+    font-style: oblique;
+}
+
+.text-card {
+    font-size: calc( 1rem + 1vw);
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 0;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./css files/main_layout.css">
+    <link rel="stylesheet" href="./css files/section_contact_us.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo-page-title">
+            <a href="./index.html"><img class="LIA-logo"   src="./images/LIA-Finder-logo.png" alt="Lia Finder logo" height="100%" width="100%"></a>
+            <h1>Contact us</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <!-- ORIZONTAL MENU/ go back button?-->
+        <div class="horizontal-menu">
+            <a href="./contact_us.html"><span class="marker">Contact us<span></a>
+            <a href="./location.html">Location</a>
+            <a href="./social.html">Social</a>
+            <a href="./our_team.html">Our Team</a>
+            <a href="./languages.html">Languages</a>
+    </nav>
+    <section>
+        <article>
+            <div class="index-main-content"> 
+                <h2>Fill the form to contact us.</h2>
+            </div>
+        </article>
+        <form action="mailto: d.baldi88@gmail.com" method="POST" enctype="text/plain"> <!--GET method put in the URL//ENCRIPTION TYPE TO SEE THE EMAIL-->
+            <fieldset>
+                <legend>User´s info</legend>
+                    <div class="field">
+                        <label class="required" for="first-name">First name:</label>
+                        <input id="first-name" type="text" name="first-name" placeholder="Enter your first name" minlength="4" required>
+                    </div>
+                    <div class="field">
+                        <label class="required" for="family-name">Family name:</label>
+                        <input id="family-name" type="text" name="family-name" placeholder="Enter your family name" minlength="4" required>
+                    </div>
+                    <div class="field">
+                        <label class="required" for="email">Email adress:</label>
+                        <input id="email" type="text" name="email" placeholder="Enter your email" minlength="6" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                        <div class="field">
+                            <label for="message"></label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Please write your message here..." required></textarea>
+                        </div>
+                
+                        <div class="field">
+                            <label for="newsletter">Want to receive our newsletter?</label>
+                            <input type="checkbox" id="newsletter" value="answer-newsletter" checked>
+                        </div>
+            </fieldset>
+                <button>Send message</button>
+        </form>
+    </section>
+    <footer>
+        <h4> © Davide Baldi FEA 23-Frontend programmation-Assignement 1 </h4>
+    </footer>
+    
+</body>
+</html>

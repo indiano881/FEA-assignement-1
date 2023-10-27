@@ -1,0 +1,45 @@
+.field,
+textarea {
+    font-size: calc(1.5rem+1vw);
+    margin: 16px 0;
+}
+
+fieldset {
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 0 15%;
+}
+
+button {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10%;
+    font-size: calc(1.5rem+1vw);
+    margin: 6px 12px;
+    padding: 10px 20px;
+    transition: all linear 0.4s;
+}
+
+button:hover {
+    background-image: linear-gradient(#f8a4d8, #6d64ff);
+    color: #fff;
+    cursor: pointer;
+}
+
+textarea {
+    height: 50px;
+    width: auto;;
+}
+
+.required::after {
+    color: red;
+    content: "*";
+}
+
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 5%;
+    font-size: calc(1.5rem+1vw);
+    padding: 8px;
+}
+
